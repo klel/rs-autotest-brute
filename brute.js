@@ -857,6 +857,10 @@ const questions = [
 //     }];
 //#endregion
 
+const htmlBasics = 'https://app.rs.school/api/course/58/student/me/task/1267/verification';
+const jsBasics = 'https://app.rs.school/api/course/56/student/me/task/1186/verification';
+const cssBasics = 'https://app.rs.school/api/course/58/student/me/task/1270/verification';
+
 
 const post = async (q, a) => {
     const res = await fetch("https://app.rs.school/api/course/56/student/me/task/1186/verification",
